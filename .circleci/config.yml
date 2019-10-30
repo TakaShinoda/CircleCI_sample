@@ -7,9 +7,9 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run:
-        name: Run Test
-        command: ruby sum_test.rb
+      - run: 
+          name: Run test
+          command: ruby sum_test.rb
 
 workflows:
   version: 2
